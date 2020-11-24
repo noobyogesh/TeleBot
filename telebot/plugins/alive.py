@@ -62,13 +62,13 @@ async def amireallyalive(alive):
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
     if ALV_PIC:
-        tele = f"**Welcome To TeleBot **\n\n"
+        tele = f"**Welcome To A000 **\n\n"
         tele += "`Hey! I'm alive. All systems online and functioning normally!`\n\n"
         tele += "` 🔸 Telethon version:` **1.17**\n` 🔹 Python:` **3.8.3**\n"
-        tele += f"` 🔸 TeleBot Version:` **{telever}**\n"
+        tele += f"` 🔸 A000 Version:` **{telever}**\n"
         tele += "` 🔹 More Info:` **@TeleBotSupport**\n"
         tele += f"` 🔸 Sudo :` **{sudo}**\n"
-        tele += f"` 🔹 TeleBot Uptime:` **{uptime}**\n"
+        tele += f"` 🔹 A000 Uptime:` **{uptime}**\n"
         tele += "` 🔸 Database Status:` **All OK 👌!**\n"
         tele += f"` 🔹 My pro owner` : **[{DEFAULTUSER}](tg://user?id={myid})**\n\n"
         tele += "    [✨ GitHub Repository ✨](https://github.com/xditya/TeleBot)"
